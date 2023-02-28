@@ -2,7 +2,8 @@
 $firstNumber=$_POST['num'];
 $secondNumber=$_POST['2num'];
 $ThirdNumber=$_POST['3num'];
-echo "Total Sum ".$firstNumber+$secondNumber*$ThirdNumber;
+$totalCFT =$firstNumber*$secondNumber*$ThirdNumber;
+echo "Total CFT: " . $totalCFT/144;
 // if(isset($number)) {
 
 //     echo "Empty NUmber";
